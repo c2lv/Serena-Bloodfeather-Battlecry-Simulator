@@ -1,0 +1,56 @@
+<html lang="ko">
+    <head>
+        <title>Serena Bloodfeather's Battlecry Simulator</title>
+        <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+    </head>
+    <body>
+        <div class="simulator">
+            <div class="enemyInfo">
+                <p>
+                Enemy Attack: <input id="enemyAttack" type="number" min="0" max="196" value="0" onchange="Battlecry()">
+                Enemy Health: <input id="enemyHealth" type="number" min="1" max="196" value="0" onchange="Battlecry()">
+                </p>
+            </div>
+            <div class="hs-card">
+                <div class="minion card-scale card-scale-82">
+                    <div class="card-body normal-card elite-card">
+                        <div class="card-inner">
+                            <div class="card-base"></div>
+                            <div class="elite"></div>
+                            <div class="portrait"></div>
+                            <div class="name"></div>
+                            <div class="rarity rarity-5"></div>
+                            <div class="textbox textbox-icon textbox-icon100" >
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <b>전투의 함성:</b> 적 하수인을<br>선택합니다. 그 하수인보다<br>능력치가 더 높아질 때까지<br>공격력과 생명력을<br>가져옵니다.
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="cost">
+                                <div>
+                                    <span class="n2"></span>
+                                </div>
+                            </div>
+                            <div class="attack">
+                                <div id ="serenaAttack">
+                                    <span class="n1"></span>
+                                </div>
+                            </div>
+                            <div class="health">
+                                <div id="serenaHealth">
+                                    <span class="n1"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="static/js/main.js"></script>
+    </body>
+</html>

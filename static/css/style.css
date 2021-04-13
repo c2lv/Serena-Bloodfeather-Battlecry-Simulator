@@ -1,0 +1,316 @@
+body {
+    background-image: url(../img/1015948.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, input {
+    font-family: gulim, 굴림, Helvetica;
+    font-size: 12px;
+    color: #000;
+    font-weight:normal;
+    letter-spacing: 0px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.enemyInfo {
+    display: contents;
+}
+
+div {
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+div.hs-card {
+    width: auto;
+    height: auto;
+    display: inline-block !important;
+    overflow: hidden;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+div.hs-card div.card-scale {
+    _height: auto !important;
+}
+
+div.hs-card div.card-scale-82 {
+    width: 270px;
+    height: 400px;
+}
+
+div.hs-card div.card-scale div.card-body {
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+}
+
+div.hs-card div.card-scale-82 div.card-body {
+    transform: scale(0.82);
+    -webkit-transform: scale(0.82);
+    -moz-transform: scale(0.82);
+    -ms-transform: scale(0.82);
+    -o-transform: scale(0.82);
+    _zoom: 0.82;
+}
+
+div.hs-card div.card-body {
+    width: 330px;
+}
+
+div.hs-card div.minion div.normal-card.elite-card div.card-inner {
+    height: 478px !important;
+    margin: 5px 0 !important;
+}
+
+div.hs-card div.minion div.normal-card div.card-inner {
+    height: 458px;
+    margin: 15px 0;
+}
+
+div.hs-card div.card-inner {
+    position: relative;
+    width: 330px;
+    _height: 488px;
+}
+
+div.hs-card div {
+    width: auto;
+    height: auto;
+    display: inline-block !important;
+    overflow: hidden;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+div.hs-card * {
+    cursor: default;
+}
+
+div.hs-card div.minion div.card-base {
+    height: 461px;
+    background-image: url('../img/minion_normal_card_priest.png');
+}
+
+div.hs-card div.card-base {
+    position: absolute;
+    left: 0px;
+    bottom: 7px;
+    width: 330px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+
+div.hs-card div.minion div.elite-card div.elite {
+    display: inline-block;
+}
+
+div.hs-card div.minion div.elite {
+    position: absolute;
+    display: none;
+    right: 3px;
+    bottom: 308px;
+    width: 245px;
+    height: 170px;
+    background: url('../img/minion_normal_elite.png') 0 0 no-repeat;
+    z-index: 4;
+}
+
+div.hs-card div.minion div.portrait {
+    left: 74px;
+    bottom: 194px;
+    width: 184px;
+    height: 250px;
+}
+
+div.hs-card div.portrait {
+    position: absolute;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.portrait {
+    background-image:url('../img/minion_HS22-054_M.png');
+}
+
+div.hs-card div.name {
+    position: absolute;
+    bottom: 182px;
+    left: 35px;
+    width: 260px;
+    height: 60px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 5;
+    background-image:url('../img/minion__EB_B6_89_EC_9D_80_EA_B9_83_ED_84_B8_20_EC_84_B8_EB_A0_88_EB_82_98.png');
+}
+
+div.hs-card div.minion div.rarity {
+    left: 142px;
+    bottom: 149px;
+    background-image: url(../img/minion_normal_rarity.png);
+}
+
+div.hs-card div.rarity {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-position: 0 50px;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+
+div.hs-card div.rarity-5 {
+    background-position: 0 -100px;
+}
+
+div.hs-card div.textbox {
+    position: absolute;
+    left: 52px;
+    bottom: 40px;
+    width: 225px;
+    height: 126px;
+    z-index: 5;
+}
+
+div.hs-card div.textbox-icon {
+    background: none center center no-repeat;
+}
+
+div.hs-card div.textbox-icon100 {
+    background-image: url(../img/textbox_icon22.png) !important;
+}
+
+div.hs-card div.textbox table, div.hs-card div.textbox tr, div.hs-card div.textbox td {
+    visibility: visible !important;
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: none !important;
+    border: none !important;
+}
+
+div.hs-card div.textbox table {
+    display: table !important;
+    border-spacing: 0px !important;
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+    border-left-width: 0px !important;
+}
+
+div.hs-card div.textbox tr {
+    display: table-row !important;
+}
+
+div.hs-card div.card-scale div.textbox td {
+    text-shadow: none !important;
+    _filter: none !important;
+}
+
+div.hs-card div.textbox td {
+    display: table-cell !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    font-size: 17px !important;
+    font-weight: normal !important;
+    font-family: gulim, 굴림, Helvetica !important;
+    line-height: 22px !important;
+    letter-spacing: 0px !important;
+    color: #17110b;
+    text-shadow: 1px 0 #17110b !important;
+    _filter: dropshadow(offx=1,offy=0,color=#17110b,positive=true) !important;
+}
+
+div.hs-card div.textbox td b {
+    color: inherit !important;
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+}
+
+div.hs-card div.cost, div.hs-card div.attack, div.hs-card div.health {
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    z-index: 8;
+    background: url(../img/icons.png) 0 0 no-repeat;
+}
+
+div.hs-card div.cost {
+    left: 6px;
+    bottom: 365px;
+}
+
+div.hs-card div.minion div.cost {
+    left: 1px;
+    bottom: 375px;
+}
+
+div.hs-card div.cost div, div.hs-card div.attack div, div.hs-card div.health div {
+    padding: 26px 0 0 0;
+    width: 82px;
+    text-align: center;
+}
+
+div.hs-card div.cost div {
+    padding: 16px 0 0 0;
+    text-indent: -4px;
+}
+
+div.hs-card div.cost span, div.hs-card div.attack span, div.hs-card div.health span {
+    display: inline-block;
+    width: 31px;
+    height: 42px;
+    background: url(../img/number.gif) -1px 0 no-repeat;
+}
+
+div.hs-card div.attack {
+    left: -5px;
+    bottom: 0px;
+    background-position: -82px 0;
+}
+
+div.hs-card div.attack div {
+    text-indent: 9px;
+}
+
+div.hs-card div.cost span.n1, div.hs-card div.attack span.n1, div.hs-card div.health span.n1 { width: 19px; background-position: -39px 0; }
+div.hs-card div.cost span.n2, div.hs-card div.attack span.n2, div.hs-card div.health span.n2 { width: 30px; background-position: -66px 0; }
+div.hs-card div.cost span.n3, div.hs-card div.attack span.n3, div.hs-card div.health span.n3 { width: 29px; background-position: -98px 0; }
+div.hs-card div.cost span.n4, div.hs-card div.attack span.n4, div.hs-card div.health span.n4 { width: 30px; background-position: -130px 0; }
+div.hs-card div.cost span.n5, div.hs-card div.attack span.n5, div.hs-card div.health span.n5 { width: 27px; background-position: -163px 0; }
+div.hs-card div.cost span.n6, div.hs-card div.attack span.n6, div.hs-card div.health span.n6 { width: 30px; background-position: -193px 0; }
+div.hs-card div.cost span.n7, div.hs-card div.attack span.n7, div.hs-card div.health span.n7 { width: 27px; background-position: -228px 0; }
+div.hs-card div.cost span.n8, div.hs-card div.attack span.n8, div.hs-card div.health span.n8 { width: 28px; background-position: -259px 0; }
+div.hs-card div.cost span.n9, div.hs-card div.attack span.n9, div.hs-card div.health span.n9 { width: 31px; background-position: -289px 0; }
+
+div.hs-card div.health {
+    right: -9px;
+    bottom: -3px;
+    background-position: -164px 0;
+}
+.simulator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 275;
+    height: 444;
+    background: rgba(255, 255, 255, 0.5);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    border-radius: 1em;
+}
