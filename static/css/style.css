@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'YD2002';
+    src: url(../font/2002.woff);
+}
+
+.header {
+    color: white;
+    font-size: 42;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 666;
+    height: 42;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20;
+}
+
 body {
     background-image: url(../img/1015948.jpg);
     background-repeat: no-repeat;
@@ -5,7 +24,7 @@ body {
 }
 
 body, input {
-    font-family: gulim, 굴림, Helvetica;
+    font-family: YD2002;
     font-size: 12px;
     color: #000;
     font-weight:normal;
@@ -16,6 +35,7 @@ body, input {
 
 .enemyInfo {
     display: contents;
+    text-align: center;
 }
 
 div {
@@ -224,7 +244,7 @@ div.hs-card div.textbox td {
     vertical-align: middle !important;
     font-size: 17px !important;
     font-weight: normal !important;
-    font-family: gulim, 굴림, Helvetica !important;
+    font-family: YD2002 !important;
     line-height: 22px !important;
     letter-spacing: 0px !important;
     color: #17110b;
